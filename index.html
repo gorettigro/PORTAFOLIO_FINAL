@@ -83,19 +83,21 @@
                     </div>
                 </div>
             </div>
-            <div class="inputs">
-                <input class="styled" type="text" placeholder="NOMBRE" id="inputName" name="inputName" required>
-                <input class="styled" type="text" placeholder="EMAIL" id="inputEmail" name="inputEmail" required>
-                <input class="styled" type="text" placeholder="ASUNTO" id="inputAsunto" name="inputAsunto" required>
-                <textarea class="styled_msg" type="text" placeholder="MENSAJE" id="inputMensaje" name="inputMensaje" required></textarea>
-                <div class="checkButton" >
-                    <div>
-                        <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
-                        <label for="checkbox"> Acepto las condiciones de privacidad </label>
+            <form action="/my-handling-form-page" method="post">
+                <div class="inputs">
+                    <input class="styled" type="text" placeholder="NOMBRE" id="inputName" name="inputName" required>
+                    <input class="styled" type="text" placeholder="EMAIL" id="inputEmail" name="inputEmail" required>
+                    <input class="styled" type="text" placeholder="ASUNTO" id="inputAsunto" name="inputAsunto" required>
+                    <textarea class="styled_msg" type="text" placeholder="MENSAJE" id="inputMensaje" name="inputMensaje" required></textarea>
+                    <div class="checkButton" >
+                        <div>
+                            <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                            <label for="checkbox"> Acepto las condiciones de privacidad </label>
+                        </div>
+                        <button type="submit" class="btn_enviar" id="btn-mensaje">ENVIAR MENSAJE</button>
                     </div>
-                    <button type="submit" class="btn_enviar" id="btn-mensaje">ENVIAR MENSAJE</button>
                 </div>
-            </div>
+            </form>
             <div>
             </div>
             <br>
