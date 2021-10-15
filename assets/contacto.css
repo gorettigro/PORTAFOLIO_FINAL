@@ -63,7 +63,7 @@ div>p{
 
 .styled{
     padding: 2px;
-    font-size: 7px;
+    font-size: 1rem;
     letter-spacing: 1px;
     border-width: 0px 0px 1px 0px;
     border-color: #ababab;
@@ -94,7 +94,7 @@ div>p{
     height: 100px;
     margin-bottom: 15px;
     padding: 2px;
-    font-size: 7px;
+    font-size: 1rem;
     letter-spacing: 1px;
     border-width: 1px;
     border-style: solid;
